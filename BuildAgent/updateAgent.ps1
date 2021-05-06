@@ -7,7 +7,7 @@ $products = @(
     "dotnetcore-sdk",
     "git",
     "golang",
-    "node-lts",
+    "nodejs-lts",
     "googlechrome",
     "open-jdk",
     "powershell-core",
