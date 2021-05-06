@@ -30,6 +30,12 @@ foreach ($prod in $products) {
 npm -g update
 
 # Update all Powershell modules
-updata-module
+update-module
+
+
+# Update docker on windows server
+Install-Package -Name Docker -ProviderName DockerMSFTProvider -Update -Force
+
+
 
 
